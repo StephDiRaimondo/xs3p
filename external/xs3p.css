@@ -117,5 +117,7 @@ pre {
 		position: fixed;
 		top: 65px;
 		width: 22%;
+		height: 100%;
+		overflow: auto;
 	}
 }
