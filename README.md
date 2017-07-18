@@ -3,7 +3,7 @@
 ## What it is?
 xs3p is a XSD documentation generator, this tool generates nice-looking HTML documentation from XML Schema descriptions.
 
-It is a fork of version 1.1.5 of the xs3p doc tool from http://xml.fiforms.org/xs3p/ - see the [original README](README_ORIG.txt) for more information.
+This v2.0 is a fork of v1.1.5, by [bitfehler](https://github.com/bitfehler/xs3p), of the xs3p doc tool from http://xml.fiforms.org/xs3p/ (see the [original README](README_ORIG.txt) for more information).
 
 Added features include:
  * Complete re-design using [Bootstrap](https://getbootstrap.com "Bootstrap homepage")
