@@ -43,6 +43,23 @@ powershell "& 'C:\XsdToBeConverted\ConvertAllXsdToHtml.ps1'
 ### On Linux
 *TODO*
 
+### With Visual Studio
+* Open the xs3p file in the IDE
+* Go in the menu : XML->Run (or something similar), it will ask for an input file and you will provide the xsd file.
+* Once finished you'll get a XHTML file that you can open in a web browser.
+
+### Without XSL processor
+**Warning**: You don't absolutely need an XSL processor, but stylesheets like xs3p won't generate links using this approach.
+
+Make a copy of your XSD file and insert the following lines at the top of the XSD:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xs3p.xsl"?>
+```
+
+Then you can directly view the XSD file using a web-browser, this one will do the conversion to HTML using the specified XSLT.
+
 ## Known issues
  * There is currently no way to inline the Bootstrap and jQuery sources, thus
    those files must be fetched when viewing the documentation. Their URLs can
