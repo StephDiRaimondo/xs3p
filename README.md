@@ -17,6 +17,8 @@ Another interesting example is the [result for the XML Schema .xsd itself](https
 That one pushes the system to its limits, but it's still useful in my opinion.
 
 ## Install
+Install is needed to use it with a XSL processor. If you want to use it without, please go to the next section.
+
 ### On Windows
 You can use [MSXML](https://www.microsoft.com/en-us/download/details.aspx?id=15697) and the [MSXSL command utility](https://www.microsoft.com/en-us/download/details.aspx?id=21714). 
 To use MSXSL, place the downloaded EXE in the same folder as the ```xs3p.xsl``` file.
